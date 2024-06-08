@@ -28,10 +28,10 @@ function App() {
       <h1>Calculator</h1>
 
       <label>A =</label>
-      <input type="number" onChange={handleInputA} value={numberA} />
+      <input type="text" onChange={handleInputA} value={numberA} />
 
       <label>B =</label>
-      <input type="number" onChange={handleInputB} value={numberB} />
+      <input type="text" onChange={handleInputB} value={numberB} />
 
       <label>A + B =</label>
       <input value={total} disabled />
